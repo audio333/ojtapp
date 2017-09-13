@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Layout</title>
+
+  <style type="text/css">
+
+  /*body{
+    background-color: #CCC; 
+  }*/
+  #report_container {
+    /*background-color: #CCC;*/
+    padding: 10px; height: auto; width: 550px; }
+  h2 #ref_no {
+    font-size: 11px; float: right; font-style: italic; color: #333; }
+  .report_box #reported {
+    color: #333;
+  }
+  .report_box {
+    box-shadow: 3px 3px 3px #888888; background-color: #FFF; font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; font-size: 14px; margin: 10px; padding: 10px; height: auto; position: relative; }
+  #label_top {
+    opacity: 0.5; position: absolute; left: 10px; top: 10px; width: 490px; height: auto; background-color: #000; color: #FFF; padding: 10px; }
+  #label_top #company {
+    text-transform: uppercase;
+  }
+  #label_top #facility {
+    font-size: 18px; text-transform: capitalize; }
+  #label_top #date {
+    font-size: 12px;
+  }
+  #label_bottom {
+    opacity: 0.5; position: absolute; left: 10px; top: 260px; width: 500px; height: 40px; background-color: #000; color: #FFF; padding: 5px; }
+  #label_bottom #facility {
+    font-size: 18px;
+  }
+  #label_bottom #location {
+    font-size: 12px; }
+  .report_box #image_label {
+    font-size: 12px; color: #000; font-style: italic; }
+  .report_box #main_image {
+    height: 300px; width: auto; position: static; }
+  .report_box #clear {
+    clear: both;
+  }
+  .report_box .other_image {
+    float: left; height: 120px; width: 120px; margin-top: 10px; margin-right: 5.5px; margin-bottom: 10px; margin-left: 0px; border: 1px solid #000; }
+  .report_box #image_container {
+    clear: left;
+  }
+  .report_box h2 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  #label_top #date {
+    float: right;
+  }
+  pre{
+      white-space: pre-wrap;
+  }
+  h5{
+    padding: 0; margin: 0; }
+  </style>
+  
+</head>
+
+
+<body>
+
+     <div class="report_box">
+      <div id="main_image" align="center">
+       <div id="label_top" align="left">
+           <span id="company">'.$company.'</span>
+           <span id="date">'.$dat.' '.$time.'</span>
+         </div>
+         <img src="cid:'.$cidB.'" alt="primary_image" width="100%" height="100%" />
+         <div id="label_bottom" align="left">
+           <span id="facility">'.$facility.'</span><br />
+           <span id="location">'.$location.'</span>
+         </div>
+       </div>
+       
+       <h2 align="left">'.$regard.' <span id="ref_no">-Ref# '.$id.'</span></h2> 
+         <h5 id="reported">Reported by '.$sender.' | '.$msgDat.' '.$msgTime.'</h5>
+         <div align="left"><pre>'.$remarks.'</pre></div><br />
+
+         
+       <span id="image_label" align="left">Other Photos:</span>
+         
+       <div id="image_container">
+         <div class="other_image" align="left"><img src="cid:'.$cidC.'" width="100%" height="100%" alt="other_image" /></div>
+         <div class="other_image" align="left"><img src="cid:'.$cidD.'" width="100%" height="100%" alt="other_image" /></div>
+         <div class="other_image" align="left"><img src="cid:'.$cidE.'" width="100%" height="100%" alt="other_image" /></div>
+         <div class="other_image" align="left"><img src="cid:'.$cidF.'" width="100%" height="100%" alt="other_image" /></div>
+       </div>
+       
+       <div id="clear"></div>
+
+     </div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,277 @@
+@charset "utf-8";
+/* CSS Document */
+
+#id_container {
+	top: 15px;
+	height: 3.7in;
+	width: 5.2in;
+	position: relative;
+	float: left;
+	border: 1px solid #000;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 50px;
+	margin-left: 5px;
+}
+#id_container #front {
+	left: 0px;
+	top: 0px;
+	height: 3.7in;
+	width: 2.6in;
+	float: left;
+	position: relative;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	margin-right: -1px;
+}
+#front #photo {
+	position: absolute;
+	left: 128px;
+	top: 88px;
+	width: 1in;
+	height: 1in;
+	border: 1px solid #000;
+}
+#id_container #back {
+	height: 3.7in;
+	width: 2.6in;
+	left: 0px;
+	top: 0px;
+	float: left;
+	position: relative;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	margin-left: -1px
+}
+#back #note {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: italic;
+	position: absolute;
+	left: 7px;
+	top: 12px;
+	width: 237px;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+	height: 12px;
+}
+#back #bg_logo {
+	position: absolute;
+	left: -93px;
+	top: 150px;
+	width: 125px;
+	height: 184px;
+	z-index: -1;
+}
+#logo {
+	position: absolute;
+	left: 8px;
+	top: 8px;
+	width: 233px;
+	height: 54px;
+}
+#front #nickname {
+	position: absolute;
+	left: 15px;
+	top: 204px;
+	width: 211px;
+	height: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 28px;
+	text-transform: uppercase;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+}
+#front #facility {
+	position: absolute;
+	left: 14px;
+	top: 239px;
+	width: 212px;
+	height: 18px;
+	background-color: #C40000;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	text-transform: uppercase;
+}
+#front #control {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	position: absolute;
+	left: 12px;
+	top: 154px;
+	width: 103px;
+	background-color: #CCC;
+	color: #333;
+	height: 12px;
+}
+#front #ojt {
+	position: absolute;
+	top: 101px;
+	width: 103px;
+	height: 45px;
+	left: 12px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 38px;
+	font-weight: bold;
+}
+#front #name {
+	left: 16px;
+	top: 298px;
+}
+#back #supervisor {
+	left: 17px;
+	top: 215px;
+}
+#back #apd {
+	left: 18px;
+	top: 307px;
+}
+.name{
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	width: 211px;
+	vertical-align: text-bottom;
+	display: inline-block;
+	text-transform: none;
+}
+#front #signature {
+	top: 315px;
+	left: 16px;
+}
+.below_text {
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	top: 299px;
+	left: 87px;
+	width: 211px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #ccc;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000;
+}
+#back #designation {
+	top: 233px;
+	left: 17px;
+}
+#back #apdtitle {
+	top: 324px;
+	left: 18px;
+}
+#front #access {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: #C40000;
+	position: absolute;
+	color: #FFF;
+	width: 248px;
+	left: 0px;
+	top: 335px;
+	height: 18px;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.label_bg {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	position: absolute;
+	font-weight: bold;
+	background-color: #C40000;
+	/*background-color: #000;*/
+	position: absolute;
+	width: 205px;
+	height: 17px;
+	text-align: center;
+	left: 29px;
+	top: 117px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-top-color: #333;
+	border-right-color: #333;
+	border-bottom-color: #333;
+	border-left-color: #333;
+}
+.info {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+	position: absolute;
+	font-weight: bold;
+	position: absolute;
+	width: 205px;
+	min-height: 17px;
+	height: auto;
+	text-align: center;
+	border: 1px solid #333;
+	line-height: normal;
+}
+#label_validity{
+	left: 22px;
+	top: 35px;
+}
+#label_start{
+	left: 22px;
+	top: 77px;
+}
+#label_contact{
+	left: 22px;
+	top: 119px;
+}
+#info_validity{
+	left: 22px;
+	top: 52px;
+}
+#info_start{
+	left: 22px;
+	top: 95px;
+}
+#info_contact{
+	left: 22px;
+	top: 136px;
+	/*max-height: auto;*/
+	/*background-color: #fff;*/
+}
+#img_signature {
+	position: absolute;
+	width: 211px;
+	top: 257px;
+	left: 18px;
+	height: 90px;
+	z-index: 1;
+}
